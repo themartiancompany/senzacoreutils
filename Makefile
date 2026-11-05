@@ -67,6 +67,7 @@ NPM_FILES=\
   "AUTHORS.rst" \
   "Makefile" \
   "dist" \
+  "du.webpack.config.cjs" \
   "libsha256sum" \
   "libsha256sum.webpack.config.cjs" \
   $(_PROGRAMS) \

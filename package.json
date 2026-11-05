@@ -2,7 +2,7 @@
   "name":
     "senzacoreutils",
   "version":
-    "1.0.6",
+    "1.0.7",
   "description":
     "Javascript partial port of GNU Coreutils.",
   "bin": {
