@@ -2,7 +2,7 @@
   "name":
     "senzacoreutils",
   "version":
-    "1.0.7",
+    "1.0.8",
   "description":
     "Javascript partial port of GNU Coreutils.",
   "bin": {
@@ -93,10 +93,14 @@
       "standard && node test.mjs"
   },
   "dependencies": {
+    "libcoreutils":
+      "^0.0.25",
     "libcrash-js":
       "npm:crash-js@^1000000000000019.1000000000000001.1000000000000001",
     "tmcfs":
-      "npm:@themartiancompany/fs@^0.0.27"
+      "npm:@themartiancompany/fs@^0.0.27",
+    "tmcsplit":
+      "^0.0.20"
   },
   "devDependencies": {
     "browserify-sign":
