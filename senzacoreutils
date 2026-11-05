@@ -47,13 +47,26 @@ const
 const
   _du =
     _libcrash_module._du;
+const
+  _require =
+    _libcrash_module._require;
+const
+  _libcoreutils =
+    await _require(
+      "libcoreutils");
+const
+  _base64 =
+    _libcoreutils._base64;
 
 export {
+  _base64,
   _du,
   _sha256sum
 };
 
 // module.exports = {
+//   _base64:
+//     _base64,
 //   _du:
 //     _du,
 //   _sha256sum:
