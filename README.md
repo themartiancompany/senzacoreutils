@@ -44,24 +44,36 @@ and the
   https://github.com/themartiancompany/crash-js)
 library.
 
-##### `base64`
+### Available commands and libraries
+
+All the functions which have already been
+implemented in `crash-js` can easily
+be written a full-flegded Crash Javascript
+program which can run from a shell.
+
+Below are some of the programs which have
+already been implemented because I had
+spent enough time on the correspondent
+library to also write a command.
+
+##### `base64.js`
 
 > Base64 encode or decode FILE,
   (not standard input),
   to standard output.",
 
-##### `du`
+##### `du.js`
 
 > Summarize device usage of the set of input files,
   but not recursively because it's not implemented.
 
-##### `sha256sum`
+##### `sha256sum.js`
 
 > Simply return an `sha256` sum of a given file.
   If using async version (by including callback),
   it will stream; successfully tested on files 4 GB+.
 
-##### `split`
+##### `split.js`
 
 > Output pieces of FILE to PREFIXaa, PREFIXab, ...
 
@@ -80,7 +92,7 @@ on the the uncensorable
 [Ur](
   https://github.com/themartiancompany/ur)
 user repository and application store as
-`evm-contracts-tools`.
+`senzacoreutils`.
 The source code is published on the
 [Ethereum Virtual Machine File System](
   https://github.com/themartiancompany/evmfs)
