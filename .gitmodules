@@ -1,3 +1,9 @@
 [submodule "man"]
 	path = man
 	url = https://github.com/themartiancompany/senzacoreutils-man
+[submodule "libcoreutils"]
+	path = libcoreutils
+	url = https://github.com/themartiancompany/libcoreutils
+[submodule "split"]
+	path = split
+	url = https://github.com/themartiancompany/tmcsplit

@@ -44,6 +44,12 @@ and the
   https://github.com/themartiancompany/crash-js)
 library.
 
+##### `base64`
+
+> Base64 encode or decode FILE,
+  (not standard input),
+  to standard output.",
+
 ##### `du`
 
 > Summarize device usage of the set of input files,
@@ -54,6 +60,10 @@ library.
 > Simply return an `sha256` sum of a given file.
   If using async version (by including callback),
   it will stream; successfully tested on files 4 GB+.
+
+##### `split`
+
+> Output pieces of FILE to PREFIXaa, PREFIXab, ...
 
 ## Installation
 
