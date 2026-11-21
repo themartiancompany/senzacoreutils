@@ -2,7 +2,7 @@
   "name":
     "senzacoreutils",
   "version":
-    "1.0.11",
+    "1.0.12",
   "description":
     "Javascript partial port of GNU Coreutils.",
   "bin": {
@@ -101,7 +101,7 @@
     "tmcfs":
       "npm:@themartiancompany/fs@^0.0.31",
     "tmcsplit":
-      "^0.0.25"
+      "^0.0.27"
   },
   "devDependencies": {
     "browserify-sign":
